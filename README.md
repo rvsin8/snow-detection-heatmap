@@ -1,1 +1,3 @@
-# snow-detection-heatmap
+Snow Detection Heatmap is a computer vision pipeline that analyzes street/traffic video to quantify winter storm conditions over time during our blizzard. It processes each frame to estimate snowfall intensity and visibility, tracks motion/traffic activity, and aggregates signals into a time-based “heatmap” showing when conditions worsen or improve. The output can be used for quick situational awareness (e.g., when roads become unsafe, when traffic drops, and when conditions recover), and can optionally render an on-video HUD plus export summary charts for later review.
+
+Tech stack: Python, OpenCV (video I/O + frame processing + overlays), NumPy (array math/metrics), Matplotlib (heatmap/plots), Pandas (time aggregation/logs), FFmpeg via OpenCV codec support (MP4 export).
