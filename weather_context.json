@@ -1,0 +1,9 @@
+{
+    "location": "Bellerose, Queens, NY",
+    "condition": "Blizzard",
+    "temp_f": 31,
+    "snow_rate_in_per_hr": 1.0,
+    "visibility_mi": 0.25,
+    "wind_mph": 25,
+    "gust_mph": 44
+  }
